@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sounds of New York</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<h2 id="sounds_header">Sounds of New York</h2>
+<div class="top_nav" id="myTopNav">
+    <a id="contact_menu" href="#contact">Contact</a>
+    <a id="about_menu" href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveMenuToggle()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+<!-- Overlay is created to control what happens to the image once clicked on thumbnail from the main page -->
+<div id="overlay"></div>
+<div id="overlay_content">
+    <img id="img_big" src="">
+    <img id="on_big" class="volume_swap" src="images/volume_on_red.png">
+    <img id="off_big" class="volume_swap" src="images/volume_off_red.png" data-value="">
+    <p></p>
+</div>
+<!-- About Page -->
+<div id="about"></div>
+<div id="about_content">
+    <h2>About</h2>
+    <div class="close_about"></div>
+    <div class="about_image_text">
+        <img id="julia" src="images/julia.jpg">
+        <p id="about_text">Hi there and welcome!
+            <br>
+            <br/>
+            My name is Julia and I live in New York. What can I say, I love this city endlessly!
+            Its architecture, streets,  people, vibe, and energy motivate and inspire me every day.
+            It is there for you when you are happy and sad, it celebrates your wins and loses, it
+            picks you up and lets you go when you need it. Without any doubt, it is the best place
+            I’ve ever lived.
+            <br>
+            <br/>
+            This project is my Ode to New York where I collect images and sounds of the city.
+            All content including pictures and audio files was created by me using iPhone 6 and Pixel 2 phones.
+            The sounds recorded on the Pixel 2 phone as well
+            using <a class="link" href="https://www.shopmoment.com/shop/rode-videomicro">Moment Videomicro microphone</a>.
+            <br>
+            <br/>
+            To listen to the sound, click on the volume icon on the image on the Home page.
+            You can also click on the image to expand it and close it by clicking on it again.
+            As with any ambient sound, it is recommended that you use headphones for a better experience.
+            <br>
+            <br/>
+            I hope you enjoy the Sounds of New York as much as I do. Maybe you used to live here before and miss it?
+            This is a great opportunity to "revisit" the city again. And maybe you've never been here before in which
+            case, welcome and have fun! Feel free to drop me a line or
+            two at any time. I would love to hear from you.
+            <br>
+            <br/>
+            From New York City with love,
+            <br/>
+            Julia </p>
+    </div>
+</div>
+<!-- Contact Page -->
+<div id="contact"></div>
+<div id="contact_content">
+    <h2>Contact</h2>
+    <div class="close_contact"></div>
+    <div class="contact_text">
+        <p id="insta">Instagram: <a class="link" href="https://www.instagram.com/juliaamosova/">@juliaamosova</a></p>
+        <p id="github">GitHub: <a class="link" href="https://github.com/juliaamosova">@juliaamosova</a></p>
+        <p id="linkedin">LinkedIn: <a class="link" href="https://www.linkedin.com/in/juliaamosova/">@juliaamosova</a></p>
+        <p id="email">Email: julia.amosova@gmail.com</p>
+    </div>
+</div>
+<div class="row">
+    <div class="container">
+        <img class="main_image" src="images/the_met.JPG">
+        <img id="on_1" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_1" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/met-front-82st-and-5ave.mp3">
+        <p>
+            The Metropolitan Museum of Art<br/>
+            1000 5th Ave, New York, NY 10028
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/brooklyn_heights.jpg">
+        <img id="on_2" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_2" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/brooklyn-heights.mp3">
+        <p>
+            Brooklyn Heights<br/>
+            26 Remsen St, New York, NY 11201
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/by_union_square.jpg">
+        <img id="on_3" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_3" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/ues-81st-and-madison.mp3">
+        <p>
+            Moscot Eyewear<br/>
+            555 6th Ave, New York, NY 10011
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/soho_shoes.jpg">
+        <img id="on_4" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_4" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/soho-33-greene-st.mp3">
+        <p>
+            SoHo Manhattan<br/>
+            33 Greene St, New York, NY 10013
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/bushwick_bike.jpg">
+        <img id="on_5" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_5" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/bushwick-449-troutman-st.mp3">
+        <p>
+            Bushwick<br/>
+            449 Troutman St, Brooklyn, NY 11237
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/the_met_stairs.jpg">
+        <img id="on_6" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_6" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/met-stairs.mp3">
+        <p>
+            The Metropolitan Museum of Art - Stairs<br/>
+            1000 5th Ave, New York, NY 10028
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/lincoln-station-brooklyn.jpg">
+        <img id="on_7" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_7" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/lincoln-station-cafe-inside-lunch.mp3">
+        <p>
+            Lincoln Station<br/>
+            409 Lincoln Pl, Brooklyn, NY 11238
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/high_line_view.jpg">
+        <img id="on_8" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_8" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/ues-81st-and-madison.mp3">
+        <p>
+            Highline Park<br/>
+            113 10th Ave, New York, NY 10011
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/dumbo-oy.jpg">
+        <img id="on_9" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_9" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/dumbo-by-manhattan-bridge.mp3">
+        <p>
+            Manhattan Bridge - Dumbo<br/>
+            Dumbo, Brooklyn, NY 11201
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/pizza_beach_cafe.jpg">
+        <img id="on_10" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_10" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/ues-81st-and-3ave.mp3">
+        <p>
+            Pizza Beach<br/>
+            1426 3rd Ave, New York, NY 10028
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/uws-blue-car.jpg">
+        <img id="on_11" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_11" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/uws-353-columbus-ave.mp3">
+        <p>
+            Upper West Side<br/>
+            353 Columbus Ave, New York, NY 10024
+        </p>
+    </div>
+    <div class="container">
+        <img class="main_image" src="images/rockefeller_cafe.jpg">
+        <img id="on_12" class="volume_swap" src="images/volume_on_red.png">
+        <img id="off_12" class="volume_swap" src="images/volume_off_red.png" data-value="sounds/rockefeller-plaza.mp3">
+        <p>
+            Rockefeller Center Plaza<br/>
+            45 Rockefeller Plaza, New York, NY 10111
+        </p>
+    </div>
+</div>
+<p class="copyright">© 2018 Julia Amosova</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

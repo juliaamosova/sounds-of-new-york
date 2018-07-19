@@ -1,0 +1,302 @@
+/* Setting background color to black */
+body {
+    background-color: black;
+    font-family: 'Roboto Mono';
+    font-size: 12px
+}
+
+/* Styling "Sounds of New York" title */
+#sounds_header {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#sounds_header:hover {
+    cursor: pointer;
+    color: red;
+}
+
+/* Styling About and Contact pages header */
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+/* Styling copyright note at the bottom of the page */
+.copyright {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+
+/* Styling top navigation bar */
+.top_nav {
+    overflow: hidden;
+    margin-bottom: 1%;
+}
+
+/* Style the links inside the navigation bar */
+.top_nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of navigation links on hover */
+.top_nav a:hover {
+    color: red;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.top_nav .icon {
+    display: none;
+}
+
+/* When the screen is less than 720 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the top_nav (.icon) */
+@media screen and (max-width: 720px) {
+/*    .top_nav a:not(:first-child) {display: none;} */
+    .top_nav a {display: none;}
+    .top_nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the top_nav with JavaScript when the user clicks on the icon. This class makes the top_nav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 720px) {
+    .top_nav.responsive {position: relative;}
+    .top_nav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .top_nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* Styling container for all the images */
+* {
+    box-sizing: border-box;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.container {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 720px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Making the background image responsive */
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styling the volume icon and placing it inside of the container (main image) */
+.container .volume_swap {
+    position: absolute;
+    top: 85%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Styling location details on the Home Page on the thumbnail */
+.container p {
+    position: absolute;
+    top: 76%;
+    left: 20%;
+    background-color: black;
+    text-align: left;
+    color: white;
+}
+
+/* Styling location details on the big image */
+.location_big {
+    position: absolute;
+    top: 89%;
+    left: 39%;
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+/* Layer that gets activated on the background when the small image is clicked on and the big image is shown */
+#overlay, #about, #contact {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    opacity: 0.9;
+    filter: alpha(opacity = 70) !important;
+    display: none;
+    z-index: 100;
+}
+
+/* Styling the container that holds the big image once the small on is clicked on */
+#overlay_content, #about_content, #contact_content {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    text-align: center;
+    z-index: 100;
+}
+
+#on_big, #off_big {
+    display: none;
+}
+
+/* Styling the 'volume' icon on the big image */
+#overlay_content .volume_swap {
+    position: absolute;
+    top: 93%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+/* Styling the small image on the main page */
+.main_image {
+    cursor: pointer;
+}
+
+/* Styling the big image */
+#img_big {
+    cursor: pointer;
+    height: 650px;
+}
+
+/* Layer that gets activated on the background when About or Contact pages are open */
+#about, #contact {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #000;
+    opacity: 1;
+    filter: alpha(opacity = 70) !important;
+    display: none;
+    z-index: 100;
+}
+
+/* Styling the container of the About and Contact pages */
+#about_content, #contact_content {
+    position: fixed;
+    width: 100%;
+    top: 100px;
+    text-align: center;
+    display: none;
+    overflow: hidden;
+    z-index: 100;
+}
+
+/* Styling container with image and text on the About page */
+.about_image_text {
+    margin-top: 10em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* Styling Julia's photo on About page */
+#julia {
+    width: 235px;
+    float: left;
+    margin-right: 5em;
+    margin-bottom: 2.5em;
+}
+
+/* Styling About page text */
+#about_text {
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+
+/* Styling links */
+.link {
+    color: white;
+}
+
+/* Styling Instagram paragraph */
+#insta {
+    font-size: 14px;
+    margin-top: 10em;
+    color: white;
+}
+
+/* Styling GitHub, LinkedIn and Email paragraphs */
+#github, #linkedin, #email {
+    font-size: 14px;
+    color: white;
+}
+
+/* Styling close window icon on About and Contact page */
+.close_about, .close_contact {
+    position: absolute;
+    right: 5%;
+    top: 13%;
+    width: 32px;
+    height: 32px;
+    opacity: 0.5;
+}
+.close_about:hover, .close_contact:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.close_about:before, .close_about:after, .close_contact:before, .close_contact:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: white;
+}
+.close_about:before, .close_contact:before {
+    transform: rotate(45deg);
+}
+.close_about:after, .close_contact:after {
+    transform: rotate(-45deg);
+}
+
+
+
+
+
