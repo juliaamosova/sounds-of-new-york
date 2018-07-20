@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63efd9a-8532-49a9-8b16-a95a0c7dd7fb" name="Default" comment="" />
+    <list default="true" id="a63efd9a-8532-49a9-8b16-a95a0c7dd7fb" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/images/brooklyn_heights.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bushwick_bike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/by_union_square.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dumbo-oy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/dumbo_street_sign.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallow_green.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/high_line_view.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/julia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/lincoln-station-brooklyn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pizza_beach_cafe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rockefeller_cafe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/rubber_ducks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/simpsons.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/soho_shoes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/the_met.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/the_met_stairs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/uws-blue-car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/volume_off_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/volume_on_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/atlantic-ave-barclays-ctr-subway-station-2-train.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/brooklyn-heights.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/bushwick-449-troutman-st.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/dumbo-by-manhattan-bridge.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/lincoln-station-cafe-inside-lunch.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/met-front-82st-and-5ave.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/met-stairs.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/rockefeller-plaza.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/soho-33-greene-st.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/subway-2-in-the-train-atlantic-ave-to-brooklyn-museum.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/ues-81st-and-3ave.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/ues-81st-and-madison.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sounds/uws-353-columbus-ave.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,29 +50,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="147" column="14" lean-forward="true" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
+        <entry file="file://$PROJECT_DIR$/public_app/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public_app/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="898">
-              <caret line="84" column="41" lean-forward="true" selection-start-line="84" selection-start-column="41" selection-end-line="84" selection-end-column="41" />
+            <state relative-caret-position="1034">
+              <caret line="205" column="18" lean-forward="true" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -57,12 +80,16 @@
       <find>volume_on</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public_app/style.css" />
       </list>
     </option>
   </component>
@@ -81,6 +108,7 @@
     <option name="width" value="1280" />
     <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -93,6 +121,11 @@
             <path>
               <item name="sounds_of_newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="sounds_of_newyork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sounds_of_newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sounds_of_newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="public_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,12 +165,12 @@
       <updated>1529780342648</updated>
       <workItem from="1529780344486" duration="17792000" />
       <workItem from="1530374329852" duration="997000" />
-      <workItem from="1530488161419" duration="68848000" />
+      <workItem from="1530488161419" duration="69465000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87637000" />
+    <option name="totallyTimeSpent" value="88254000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -157,7 +190,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33560607" />
@@ -243,6 +276,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="794">
           <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_app/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_app/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="205" column="18" lean-forward="true" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
         </state>
       </provider>
     </entry>

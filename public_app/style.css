@@ -168,7 +168,7 @@ h2 {
 
 /* Styling the container that holds the big image once the small on is clicked on */
 #overlay_content, #about_content, #contact_content {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 100px;
     text-align: center;
@@ -199,7 +199,7 @@ h2 {
 /* Styling the big image */
 #img_big {
     cursor: pointer;
-    height: 650px;
+    height: 600px;
 }
 
 /* Layer that gets activated on the background when About or Contact pages are open */
